@@ -12,12 +12,11 @@ matches:
         type: "form"
         params: 
           layout: |
-            {{val}}
+            [[val]]
       - name: "solved"
-        type: "shell"
+        type: shell
         params: 
-          cmd: "set /a %ESPANSO_INPUT_VAL%"
-          shell: "cmd"
+          cmd: "echo '{{input.val}}' | bc"
   # Calculator w/ input
   - trigger: ":ecalc"
     replace: "{{input.val}} = {{solved}}"
@@ -26,9 +25,8 @@ matches:
         type: "form"
         params: 
           layout: |
-            {{val}}
+            [[val]]
       - name: "solved"
-        type: "shell"
+        type: shell
         params: 
-          cmd: "set /a %ESPANSO_INPUT_VAL%"
-          shell: "cmd"
+          cmd: "echo '{{input.val}}' | bc"

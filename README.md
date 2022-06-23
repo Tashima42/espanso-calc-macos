@@ -3,8 +3,7 @@ Basic calculation pacakge for epanso that works in MacOS.
 
 ## Example
 
-https://user-images.githubusercontent.com/23709916/175306689-92b317f5-216d-4135-9278-dcbcb2d7f910.mov
-
+![Screen Recording 2022-06-23 at 10 13 21](https://user-images.githubusercontent.com/23709916/175312182-e6372ce2-b296-4d5b-bdc0-a9d8543ab85e.gif)
 
 ## Usage
 1. Type `:calc`
